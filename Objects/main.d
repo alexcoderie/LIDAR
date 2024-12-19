@@ -1,0 +1,10 @@
+.\objects\main.o: main.c
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: C:\Keil_v5\ARM\INC\Philips\lpc22xx.h
+.\objects\main.o: UART.h
+.\objects\main.o: DEBUG_HEADER.h
+.\objects\main.o: TIMER.h
+.\objects\main.o: I2C_COMMUNICATION.h
+.\objects\main.o: Lidar.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

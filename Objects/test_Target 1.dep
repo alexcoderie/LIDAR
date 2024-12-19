@@ -1,0 +1,51 @@
+Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\Startup.s)(0x674471F0)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 529"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\main.c)(0x6756FF4E)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B186A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B1868)
+I (C:\Keil_v5\ARM\INC\Philips\lpc22xx.h)(0x559D2158)
+I (UART.h)(0x6756FEF1)
+I (DEBUG_HEADER.h)(0x6756FD20)
+I (TIMER.h)(0x6756FE53)
+I (I2C_COMMUNICATION.h)(0x6756FDB0)
+I (Lidar.h)(0x6756FF2A)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9B1862)
+F (.\TIMER.h)(0x6756FE53)()
+F (.\TIMER.c)(0x6756FE3E)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (TIMER.h)(0x6756FE53)
+I (C:\Keil_v5\ARM\INC\Philips\lpc22xx.h)(0x559D2158)
+I (DEBUG_HEADER.h)(0x6756FD20)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B186A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B1868)
+F (.\UART.c)(0x6756FEE4)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (UART.h)(0x6756FEF1)
+I (C:\Keil_v5\ARM\INC\Philips\lpc22xx.h)(0x559D2158)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B1868)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B186A)
+I (DEBUG_HEADER.h)(0x6756FD20)
+F (.\UART.h)(0x6756FEF1)()
+F (.\DEBUG_HEADER.h)(0x6756FD20)()
+F (.\I2C_COMMUNICATION.c)(0x6756FD49)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\i2c_communication.o --omf_browse .\objects\i2c_communication.crf --depend .\objects\i2c_communication.d)
+I (I2C_COMMUNICATION.h)(0x6756FDB0)
+I (C:\Keil_v5\ARM\INC\Philips\lpc22xx.h)(0x559D2158)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B186A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B1868)
+I (DEBUG_HEADER.h)(0x6756FD20)
+F (.\I2C_COMMUNICATION.h)(0x6756FDB0)()
+F (.\Retarget.c)(0x6756FDE9)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\retarget.o --omf_browse .\objects\retarget.crf --depend .\objects\retarget.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B186A)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x5D9B1862)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B1868)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B1868)
+I (UART.h)(0x6756FEF1)
+I (C:\Keil_v5\ARM\INC\Philips\lpc22xx.h)(0x559D2158)
+I (DEBUG_HEADER.h)(0x6756FD20)
+F (.\lidar.c)(0x6756FF10)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\lidar.o --omf_browse .\objects\lidar.crf --depend .\objects\lidar.d)
+I (lidar.h)(0x6756FF2A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B1868)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B186A)
+I (C:\Keil_v5\ARM\INC\Philips\lpc22xx.h)(0x559D2158)
+I (I2C_COMMUNICATION.h)(0x6756FDB0)
+I (DEBUG_HEADER.h)(0x6756FD20)
+F (.\lidar.h)(0x6756FF2A)()
